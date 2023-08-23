@@ -6,7 +6,7 @@ public class GeneratData {
 
 		String prefix = "Student_email";
 		String provider = "@gmail.com";
-		int random = (int) (Math.random() * 1000);
+		int random = (int) (Math.random() * 100000);
 		String email = prefix + random + provider;
 		return email;
 	}
